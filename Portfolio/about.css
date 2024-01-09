@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(./Images/istockphoto-1337668467-2048x2048.jpg);
+}
+.main .navbar img{
+    height: 70px;
+    width: 150px;
+}
+.navbar{
+    width: 86%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+ul{
+    margin-top: 0%;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+    
+}
+ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    margin-top: -3%;
+}
+ul li a:hover{
+    color: red;
+}
+
+.logo img{
+    height: 500px;
+    width: 500px;
+    margin: 100px;
+    border-radius: 50%;
+}
+.heading h1{
+    color: red;
+    position: absolute;
+    top: 100px;
+    right: 300px;
+    font-size: 45px;
+}
+.heading h3{
+    color: white;
+    position: absolute;
+    font-size: 40px;
+    top: 250px;
+    left: 700px;
+}
+.java{
+    background-image:radial-gradient(blue,red,green) ;
+}
+.sql{
+    background-image: radial-gradient(green,orange,violet);
+}
+.html{
+    background-image: radial-gradient(red,orange,blue);
+}
+.css{
+    background-image: radial-gradient(yellow,purple,green);
+}
+.js{
+    background-image: radial-gradient(orange,#f10e70);
+}
+.textc{
+    color: #f10e70;
+    font-size:40px ;
+}
+.textd{
+    color: deeppink;
+}
+
+.fsd{
+    color:crimson;
+}

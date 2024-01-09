@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100%;
+    background-image: url(./Images/abstract-background-design-black_53876-62802.jpg);
+   
+}
+.main .navbar img{
+    height: 70px;
+    width: 150px;
+}
+.navbar{
+    width: 86%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+ul{
+    margin-top: 0%;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+    
+}
+ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color:white;
+    margin-top: -3%;
+}
+ul li a:hover{
+    color: red;
+}
+
+.web {
+    position:absolute;
+    top: 110px;
+    left: 550px;
+    color: red;
+}
+.projects ul li img{
+    height: 200px;
+    width: 300px;
+    margin: 89px 0px 0px 40px;
+
+}
+.projects ul li img:hover{
+    transform: scale(1.2);
+}
+.projects .amma{
+    position: absolute;
+    top: 420px;
+    left: 150px;
+    color: white;
+    font-size: 20px;
+}
+.projects .net{
+    position: absolute;
+    top: 420px;
+    left: 550px;
+    color: white;
+    font-size: 20px;
+}
+.projects .yogurt{
+    position: absolute;
+    top: 420px;
+    left: 900px;
+    color: white;
+    font-size: 20px;
+}
+.projects .shadi{
+    position: absolute;
+    top: 420px;
+    left: 1300px;
+    color: white;
+    font-size: 20px;
+}
+.projects .youtube{
+    position: absolute;
+    top: 730px;
+    left: 150px;
+    color: white;
+    font-size: 20px;
+}
+.projects .zomato{
+    position: absolute;
+    top: 730px;
+    left: 550px;
+    color: white;
+    font-size: 20px;
+}
+.projects .knightbites{
+    position: absolute;
+    top: 730px;
+    left: 900px;
+    color: white;
+    font-size: 20px;
+}
